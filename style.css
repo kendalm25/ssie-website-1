@@ -1,7 +1,6 @@
 *{
     margin: 0; 
     padding: 0;
-    /* font-family: 'Oswald', sans-serif; */
 }
 .header{
     min-height: 100vh; 
@@ -267,15 +266,6 @@ nav .fas{
     scroll-behavior: smooth;
 }
 
-/* .carousel.dragging{
-    cursor: grab;
-    scroll-behavior: auto;
-}
-
-.carousel.dragging img{
-    pointer-events: none;
-} */
-
 .carousel img{
     object-fit: cover;
     aspect-ratio: 3/2;
@@ -388,101 +378,7 @@ nav .fas{
 
 
 
-/* .footer-container{
-    background-color: #212329;
-    padding: 32px 0 64px 0; 
-    
-}
-
-.footer{
-    width: 80%; 
-    background-color: #212329;
-    color: white;
-    display: flex; 
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
-    
-}
-
-.footer-heading{
-    display: flex;
-    flex-direction: column;
-    margin-right: 100px;
-}
-
-.footer-heading h2{
-    margin-bottom: 32px;
-    padding-top: 50px;
-}
-
-.footer-heading a{
-    color: white; 
-    margin-bottom: 10px;
-}
-
-.footer-heading a:hover{
-    color:rgba(125, 15, 15, 0.9); 
-    transition: 0.3s ease-out;
-}
-
-.footer-email-form h2{
-    margin-bottom: 32px; 
-    padding-top: 50px;
-}
-
-#footer-email{
-    width: 250x; 
-    height: 40px; 
-    border-radius: 4px;
-    outline: none; 
-    border: none; 
-    padding-left: 0.5rem; 
-    margin-bottom: 16px;
-}
-
-#footer-email-btn{
-    width: 100px; 
-    height: 40px; 
-    border-radius: 4px;
-    background-color: #7D0F0F;
-    outline: none; 
-    border: none; 
-    color: white; 
-    font-size: 16px; 
-}
-
-#footer-email-btn:hover{
-    cursor: pointer;
-    background-color: white;
-    transition: all 0.2s ease-out;
-}
-
-@media(max-width: 700px) {
-    .footer{
-        height: 50vh;    
-    }
-    .footer-email-form{
-        margin-top: 4rem;
-    }
-}
- */
-
-
-
-
  /*------------- ABOUT US PAGE ------------------ */
-
-
- /* .about-us{
-    width: 80%; 
-    margin: auto; 
-    padding-top: 80px;
-    padding-bottom: 50px;
-    font-family: 'Oswald', sans-serif;
- } */
-
 
  .testimonial{
     width: 80%; 
@@ -498,7 +394,6 @@ nav .fas{
  article{
     padding-bottom: 75px;
 }
-
 
 
  article img{
