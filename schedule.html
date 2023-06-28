@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <meta charset="utf8">
+    <title>Stanford Students in Entertainment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/cbf9ef0321.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="photos/logo-ssie-white.PNG"></a> 
+           <div class="nav-links" id="navLinks"> 
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="schedule.html">SCHEDULE</a></li>
+                <li><a href="newsletter.html">NEWSLETTER</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="apply.html">APPLY</a></li>
+            </ul>
+           </div>
+           <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Schedule</h1>
+        <h3>
+            EVENTS FOR THE 2023-2024 SCHOOL YEAR WILL BE POSTED HERE SOON
+        </h3>
+        
+
+
+    </section>
+     
+
+
+
+
+
+   
+
+
+   <!-- ----------------- footer ------------------ -->
+     
+     <section class="footer">
+        <h4>Copyright © 2023. Stanford Students in Entertainment</h4>
+        <div class="icons">
+            <a href="https://www.instagram.com/ssie.stanford/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/groups/14263102/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/StanfordSIEnt/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+    
+
+     </section>
+
+
+
+
+
+
+    <!-- Javascript for Toggle Menu -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks"); 
+        function showMenu() { 
+            navLinks.style.right = "0"; 
+        }
+        function hideMenu() { 
+            navLinks.style.right = "-200px"; 
+        }
+    </script>
+
+
+</body>
+</html>
